@@ -67,33 +67,59 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Steel Framing Uruguay" class="w-full h-full object-cover opacity-10">
-            <div class="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-white"></div>
-        </div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 fade-up">
-            <div class="text-center max-w-4xl mx-auto">
-                <span class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-4 block">Innovación en Construcción</span>
-                <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
-                    Construcción moderna y <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-red-500">eficiente</span> en Uruguay
-                </h1>
-                <p class="text-lg lg:text-xl text-brand-gray mb-10 max-w-2xl mx-auto leading-relaxed">
-                    Especialistas en Steel Framing, Wood Frame y reformas integrales. Materializamos tu proyecto con rapidez, calidad superior y previsibilidad garantizada.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="https://wa.me/123456789" class="w-full sm:w-auto bg-brand-orange hover:bg-brand-orangeDark text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg shadow-orange-500/30 flex items-center justify-center gap-2 transform hover:-translate-y-1">
-                        <i data-lucide="message-circle" class="w-5 h-5"></i>
-                        Contactar por WhatsApp
-                    </a>
-                    <a href="#servicios" class="w-full sm:w-auto bg-white border border-gray-200 hover:border-brand-orange hover:text-brand-orange px-8 py-4 rounded-xl font-medium text-lg transition-all text-brand-gray flex items-center justify-center gap-2">
-                        Ver Servicios
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden min-h-[92vh] flex items-center">
+  <!-- Fondo -->
+  <div class="absolute inset-0 z-0">
+    <img
+  src="./steel-wood-hero.png"
+  alt="Comparativa Steel Framing y Wood Frame"
+  class="hero-custom-img w-full h-full object-cover"
+>
+
+    <!-- Overlay oscuro suave -->
+    <div class="absolute inset-0 bg-black/35"></div>
+
+    <!-- Degradado para que el texto respire -->
+    <div class="absolute inset-0 bg-gradient-to-r from-black/45 via-black/20 to-black/10"></div>
+
+    <!-- Degradado inferior suave -->
+    <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white via-white/60 to-transparent"></div>
+  </div>
+
+  <!-- Contenido -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full fade-up">
+    <div class="text-center max-w-4xl mx-auto">
+      <span class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-4 block drop-shadow-md">
+        Innovación en Construcción
+      </span>
+
+      <h1 class="text-white text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight drop-shadow-[0_4px_20px_rgba(0,0,0,0.45)]">
+        Construcción moderna y
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-400">
+          eficiente
+        </span>
+        en Uruguay
+      </h1>
+
+      <p class="text-white/90 text-lg lg:text-xl mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)]">
+        Especialistas en Steel Framing, Wood Frame y reformas integrales.
+        Materializamos tu proyecto con rapidez, calidad superior y previsibilidad garantizada.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="https://wa.me/123456789" target="_blank"
+          class="bg-brand-orange hover:bg-brand-orangeDark text-white px-7 py-4 rounded-xl font-semibold shadow-xl shadow-orange-500/30 transition-all">
+          Solicitar presupuesto
+        </a>
+
+        <a href="#servicios"
+          class="bg-white/10 hover:bg-white/20 text-white border border-white/30 px-7 py-4 rounded-xl font-semibold backdrop-blur-sm transition-all">
+          Ver servicios
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Servicios -->
     <section id="servicios" class="py-24 bg-brand-light">

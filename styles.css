@@ -7,6 +7,12 @@
     transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+@media (max-width: 768px) {
+  .hero-custom-img {
+    object-position: center 70%;
+  }
+}
+
 .fade-up.is-visible {
     opacity: 1;
     transform: translateY(0);
